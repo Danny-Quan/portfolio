@@ -39,6 +39,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: rgb(250, 253, 253);
   /* content:rgb(25, 253, 253); */
+  overflow-x: hidden;
 }
 form input,
 form textarea {
@@ -141,6 +142,13 @@ nav .list-item li:last-child a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+  footer{
+    border-radius: 80px 80px 0 0;
+    -webkit-border-radius: 80px 80px 0 0;
+    -moz-border-radius: 80px 80px 0 0;
+    -ms-border-radius: 80px 80px 0 0;
+    -o-border-radius: 80px 80px 0 0;
+}
 }
 
 .header-content .name {
@@ -219,6 +227,7 @@ header .backdrop-obj {
 .section-3 .button {
   margin-top: 7%;
 }
+
 .header-image img {
   width: 100%;
 }
@@ -556,7 +565,7 @@ header .backdrop-obj {
   border-radius: 20px;
   padding: 13px;
   border: none;
-  box-shadow: 0px 0 10px rgba(128, 128, 128, 0.308);
+  box-shadow: 0px 0 10px rgba(128, 128, 128, 0.589);
   margin: 13px 5px;
 }
 .section-6 {
@@ -613,11 +622,22 @@ header .backdrop-obj {
   .footer-content .footer-content{
 margin-top: 10%;
   }
+    footer{
+    border-radius: 40px 40px 0 0;
+    -webkit-border-radius: 40px 40px 0 0;
+    -moz-border-radius: 40px 40px 0 0;
+    -ms-border-radius: 40px 40px 0 0;
+    -o-border-radius: 40px 40px 0 0;
+}
+.section-2 .button{
+  margin-bottom: 10%;
+}
 }
 @media only screen and (max-width: 480px) {
   .toolkit {
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 5%;
   }
   .section-3 .toolkit-left {
     width: 100%;
@@ -643,11 +663,6 @@ footer {
   *//*background-color: rgb(25, 97, 156);
   */background-color: rgb(184, 17, 109);
   padding: 5% 10px;
-  border-radius: 80px 80px 0 0;
-  -webkit-border-radius: 80px 80px 0 0;
-  -moz-border-radius: 80px 80px 0 0;
-  -ms-border-radius: 80px 80px 0 0;
-  -o-border-radius: 80px 80px 0 0;
 }
 footer .footer-content {
   display: flex;
