@@ -545,17 +545,23 @@ header .backdrop-obj {
 .section-6 form textarea:focus {
   outline: none;
 }
-.section-6 form input[type="submit"] {
+.section-6 form button[type="submit"] {
   padding: 13px 30px;
   color: #fff;
-  /* background: linear-gradient(rgb(255, 196, 0), rgba(212, 168, 22, 0.795)); */
-  background-color: rgba(184, 17, 109);
+  /*background: linear-gradient(rgb(255, 196, 0), rgba(212, 168, 22, 0.795));
+  */background-color: rgba(184, 17, 109);
   box-shadow: none;
   box-shadow: 0 12px 15px rgba(230, 127, 9, 0.178);
   cursor: pointer;
+  border-radius: 20px;
+  border: none;
   transition: background-color 0.3s, color 0.3s, border 3s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
-.section-6 form input[type="submit"]:hover {
+.section-6 form button[type="submit"]:hover {
   background: transparent;
   color: rgb(184, 17, 109);
   border: 1px solid rgb(184, 17, 109);
@@ -566,7 +572,7 @@ header .backdrop-obj {
   padding: 13px;
   border: none;
   box-shadow: 0px 0 10px rgba(128, 128, 128, 0.589);
-  border: 1px solid rgba(128, 128, 128, 0.822);
+  border: 1px solid rgba(128, 128, 128, 0.486);
   margin: 13px 5px;
 }
 .section-6 {
@@ -624,11 +630,11 @@ header .backdrop-obj {
 margin-top: 10%;
   }
     footer{
-    border-radius: 40px 40px 0 0;
-    -webkit-border-radius: 40px 40px 0 0;
-    -moz-border-radius: 40px 40px 0 0;
-    -ms-border-radius: 40px 40px 0 0;
-    -o-border-radius: 40px 40px 0 0;
+    border-radius: 45px 45px 0 0;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 45px 45px 0 0;
+    -ms-border-radius: 45px 45px 0 0;
+    -o-border-radius: 45px 45px 0 0;
 }
 .section-2 .button{
   margin-bottom: 10%;
