@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="publics/css/style.css" />
-    <link rel="icon" type="text/icon" href="/publics/img/code image.jpg">
+    <link rel="icon" type="text/icon" href="/publics/img/code image.jpg" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Danny Quan</title>
   </head>
@@ -280,17 +280,24 @@
               <h4>Let's talk about everything!</h4>
             </div>
             <form action="" data-aos="fade-left">
-              <input type="text" placeholder="Your name" />
-              <input type="email" placeholder="Email address" name="" id="" />
-              <input type="text" placeholder="subject" />
+              <input type="text" placeholder="Your name" required />
+              <input
+                type="email"
+                placeholder="Email address"
+                name=""
+                id=""
+                required
+              />
+              <input type="text" placeholder="subject" required />
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
                 placeholder="message"
+                required
               ></textarea>
-              <input type="submit" value="Send Message" name="" id="" />
+              <button type="submit" id="">Send Message</button>
             </form>
           </div>
         </div>
@@ -300,10 +307,7 @@
         <div class="row">
           <div class="footer-content">
             <h2>Danny Quan</h2>
-            <div
-              class="footer-content"
-              data-aos="fade-right"
-            >
+            <div class="footer-content" data-aos="fade-right">
               <ul class="contact-info">
                 <li>Address: Techiman/ Bono East</li>
                 <li>
@@ -344,7 +348,6 @@
       AOS.init({
         offset: 100,
         duration: 1000,
-        once: true,
       });
     </script>
     <script>
@@ -366,14 +369,15 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed(".typed", {
-        strings: ["Frontend Developer", 
-        "Backend Developer",
-        "Mobile App Dev",
-        "Freelancer"
-      ],
+        strings: [
+          "Frontend Developer",
+          "Backend Developer",
+          "Mobile App Dev",
+          "Freelancer",
+        ],
         typeSpeed: 60,
-        backSpeed:60,
-        loop: true
+        backSpeed: 60,
+        loop: true,
       });
     </script>
   </body>
