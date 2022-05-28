@@ -62,10 +62,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  position: sticky;
-  top: 0px;
+  /* position: sticky;
+  top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   width: 100%;
   z-index: 99;
 }
@@ -75,6 +75,9 @@ nav {
   padding: 15px;
   max-width: 100%;
   transition: all 0.3s ease-in;
+  background-color: rgb(5, 5, 27);
+  position: fixed;
+  top: 0;
 }
 .nav-nav {
   display: flex;
@@ -86,7 +89,7 @@ nav .hamburger div {
   width: 35px;
   height: 3px;
   margin: 5px;
-  background-color: rgb(13, 4, 31);
+  background-color: #fff;
 }
 nav .hamburger {
   display: none;
@@ -102,7 +105,8 @@ nav .list-item li {
 }
 nav .list-item li a {
   text-decoration: none;
-  color: rgb(13, 4, 31);
+  /* color: rgb(13, 4, 31); */
+  color: #fff;
 }
 nav .list-item li:nth-child(4) a {
   color: #fff;
@@ -160,6 +164,7 @@ section {
 }
 header {
   position: relative;
+  margin-top: 15%;
 }
 header::before {
   content: "";
@@ -638,6 +643,9 @@ margin-top: 10%;
 }
 .section-2 .button{
   margin-bottom: 10%;
+}
+header {
+  margin-top: 30%;
 }
 }
 @media only screen and (max-width: 480px) {
