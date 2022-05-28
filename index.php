@@ -306,7 +306,7 @@
       <footer>
         <div class="row">
           <div class="footer-content">
-            <h2>Danny Quan</h2>
+            <h2 data-aos="zoom-out">Danny Quan</h2>
             <div class="footer-content" data-aos="fade-right">
               <ul class="contact-info">
                 <li>Address: Techiman/ Bono East</li>
@@ -348,6 +348,7 @@
       AOS.init({
         offset: 100,
         duration: 1000,
+        once: true,
       });
     </script>
     <script>
